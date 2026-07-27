@@ -1,0 +1,33 @@
+# Variables de entorno / claves de API
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Flask
+instance/
+.webassets-cache
+
+# Node (si se usa para el frontend)
+node_modules/
+npm-debug.log*
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
